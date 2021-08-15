@@ -37,7 +37,7 @@ md"""
 
 # ╔═╡ 4b627096-e985-4562-b1cf-294c40e9b333
 md"""
-TESTE
+![](https://github.com/hallpaz/robot-arm/blob/5693fea67410802b5d92b0ceb289a5c9d3f9f5d2/docs/img/br1.jpg?raw=true)
 """
 
 # ╔═╡ fe1168c8-217f-4d7e-86b5-cc7590ee2507
@@ -74,9 +74,20 @@ begin
 	fig
 end
 
+# ╔═╡ 2c5bd32b-34b4-4d5d-926e-75f827029617
+md"""
+### Transformando os vértices
+
+Faremos operações sobre os vértices de nossos objetos usando transformações lineares. Podemos representar transformações lineares no plano por matrizes $2\times2$
+
+![](https://github.com/hallpaz/robot-arm/blob/5693fea67410802b5d92b0ceb289a5c9d3f9f5d2/docs/img/br2.jpg?raw=true)
+"""
+
 # ╔═╡ 454d84c3-98f0-4fd4-967a-1c41ff712a1c
 md"""
 ## Mudando a escala de um objeto
+
+![](https://github.com/hallpaz/robot-arm/blob/5693fea67410802b5d92b0ceb289a5c9d3f9f5d2/docs/img/br3.jpg?raw=true)
 """
 
 # ╔═╡ c223ca8f-5872-4cef-a35d-195893f0c755
@@ -113,6 +124,8 @@ end
 # ╔═╡ aaf73d3d-63a0-473b-8a78-02c370f83490
 md"""
 # Rotacionando o objeto
+
+![](https://github.com/hallpaz/robot-arm/blob/5693fea67410802b5d92b0ceb289a5c9d3f9f5d2/docs/img/br4.jpg?raw=true)
 """
 
 # ╔═╡ 7d54fd4c-fe67-4527-8b86-d43be6ef3941
@@ -193,6 +206,8 @@ end
 # ╔═╡ 21ba95b7-c033-48d6-9be1-9cb7c29d7a06
 md"""
 ## Translação - coordenadas homogêneas
+
+![](https://github.com/hallpaz/robot-arm/blob/5693fea67410802b5d92b0ceb289a5c9d3f9f5d2/docs/img/br5.jpg?raw=true)
 """
 
 # ╔═╡ a9278f8c-3341-47ee-b09b-fd1d64a37a7c
@@ -1330,6 +1345,7 @@ version = "3.5.0+0"
 # ╠═2dd39ce1-9d55-4e6e-ab66-42090b5f57c4
 # ╠═eeb5f1c8-2a0a-47e5-983a-5932cee65926
 # ╠═2b389802-c43d-4f45-aa42-1753bd99a95e
+# ╟─2c5bd32b-34b4-4d5d-926e-75f827029617
 # ╟─454d84c3-98f0-4fd4-967a-1c41ff712a1c
 # ╠═c223ca8f-5872-4cef-a35d-195893f0c755
 # ╟─584fcc6e-686e-4327-9e76-052061db36ad
